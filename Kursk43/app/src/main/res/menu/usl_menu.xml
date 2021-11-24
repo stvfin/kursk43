@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title= "Назад"
+        android:id="@+id/um_back"
+        android:onClick="cl_um"
+        android:icon="@drawable/ic_close_24"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="40"
+        />
+</menu>
